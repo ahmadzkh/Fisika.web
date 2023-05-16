@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -19,15 +20,31 @@
 
 <body>
     <!--Content Nav Bar-->
-    <nav>
-
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-around" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/kelompok">Kelompok</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <!--Main Content-->
-    <div>
+    <div id="main-page">
 
     </div>
     <!-- Script -->
     <script src="asstes/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/routing.js"></script>
 </body>
 
 <footer>
