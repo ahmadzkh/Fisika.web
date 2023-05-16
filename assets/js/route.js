@@ -2,22 +2,22 @@ const route = (event) => {
     event = event || window.event;
     event.preventDefault();
     window.history.pushState({}, "", event.target.href);
-    hadnleLocation();
+    handleLocation();
 };
 
 const routes = {
-    "/": "index.html",
-    "/kelompok": "kelompok.html",
+    "/": "/pages/index.html",
+    "/kelompok": "/pages/kelompok.html",
 };
 
-const hadnleLocation = async() => {
+const handleLocation = async () => {
     const path = window.location.pathname;
     const route = routes[path] || routes[404];
     const html = await fetch(route).then((data) => data.text());
-    document.getElementById("main-page").innerHTML = hmtl;
+    document.getElementById("main-page").innerHTML = html;
 };
 
-window.onpopstate = hadnleLocation;
+window.onpopstate = handleLocation;
 window.route = route;
 
-hadnleLocation();
+handleLocation();
