@@ -74,7 +74,7 @@ const route = (event) => {
 };
 
 const routes = {
-    "/": "/pages/index.html",
+    "/": "/pages/home.html",
     "/kelompok": "/pages/kelompok.html",
 };
 
