@@ -6,7 +6,7 @@
     left: 35px;
 }
 
-section{
+.col-9 section{
     height: 100vh;
-
+    padding: 70px 0 100px 0;
 }
