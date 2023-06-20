@@ -1,0 +1,12 @@
+.sidebar{
+    max-height: 550px;
+    width: 150px;
+    position: fixed;
+    top: 28vh;
+    left: 35px;
+}
+
+section{
+    height: 100vh;
+
+}
