@@ -19,6 +19,12 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/index.html', function () {
+    return view('index', [
+        "title" => "Fisika & Kimia 2A | Home"
+    ]);
+});
+
 Route::get('/kelompok', function () {
     return view('kelompok', [
         "title" => "Fisika & Kimia 2A | Kelompok"
