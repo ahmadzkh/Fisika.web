@@ -15,7 +15,8 @@ section {
     background-position: center;
 }
 
-section.title_project {
+div.title_project {
+    min-width: 100vh;
     padding: 220px 0 220px 0;
 }
 

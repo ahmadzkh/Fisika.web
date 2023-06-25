@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('container')
     <div id="home-page">
-        <section class="title_project">
+        <div class="title_project">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 mx-auto">
@@ -15,7 +15,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
         {{-- <div class="row wrapper d-flex justify-content-around">
                 <div class="col-lg-2 col-sm-12"> --}}
