@@ -4,10 +4,11 @@
         <section class="title_project">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-5 mx-auto">
+                        {{-- col-md-5 --}}
                         <figure class="atom_lottie"></figure>
                     </div>
-                    <div class="col-md-7 my-auto">
+                    <div class="col-md-7 my-auto title_fisika" style="display: none">
                         <p class="typing_title_matkul fs-1 fw-bold">Fisika dan Kimia Dasar 2A</p>
                         <p class="typing_title">Medan Magnet</p>
                         <p class="typing_title_kelompok fs-6">Present by Kelompok 8</p>
@@ -90,8 +91,8 @@
         {{-- <div class="col-lg-9 col-sm-12"> --}}
         <!-- Page Content  -->
         <section id="judul1">
-            <h1 class="mb-5" class>Definisi dan Sejarah</h1>
-            <div class="container-fluid">
+            <div class="container">
+                <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="center-bottom">Definisi dan Sejarah</h1>
                 <div class="row mb-5 d-flex justify-content-around">
                     <div class="col-md-4">
                         <img src="{{ asset('/assets/img/defmagnet1.png') }}" alt="medan_magnet" class="img-fluid"
@@ -130,8 +131,9 @@
         </section>
 
         <section id="judul2">
-            <h1 class="mb-5" class>Sifat, Jenis Fungsi</h1>
-            <div class="container-fluid">
+            <div class="container">
+                <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
+                    Sifat, Jenis Fungsi</h1>
                 <div class="row mb-5 d-flex justify-content-around">
                     <div class="col-lg-2 col-sm-12">
                         <p style="font-size: 20px" class="text-center">Fungsi Magnet</p>
@@ -267,8 +269,9 @@
         </section>
 
         <section id="judul3">
-            <h1 class="mb-5" class>Pengukuran dan Rumus</h1>
-            <div class="container-fluid">
+            <div class="container">
+                <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="center-bottom"
+                    data-aos-duration="1500">Pengukuran dan Rumus</h1>
                 <div class="row d-flex justify-content-around">
                     <h4 class="text-center mb-3">Pengukuran Medan Magnet</h4>
                     <div class="col-lg-12 mb-lg-3">
@@ -339,8 +342,9 @@
         </section>
 
         <section id="judul4">
-            <h1 class="mb-5" class>Gaya Lorentz</h1>
-            <div class="container-fluid">
+            <div class="container">
+                <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="center-bottom"
+                    data-aos-duration="1500">Gaya Lorentz</h1>
                 <div class="row d-flex justify-content-around">
                     <div class="col-lg-12 mb-lg-3">
                         <img src="{{ asset('/assets/img/lorentz.jpg') }}" alt="pengukuran"
@@ -405,8 +409,9 @@
         </section>
 
         <section id="judul5">
-            <h1 class="mb-5">Penerapan</h1>
-            <div class="container-fluid">
+            <div class="container">
+                <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="center-bottom"
+                    data-aos-duration="1500">Penerapan</h1>
                 <div class="row mb-4 d-flex justify-content-center">
 
                 </div>

@@ -15,6 +15,7 @@
 
     <link rel="shortcut icon" href="{{ asset('assets/img/icon.png') }}" type="image/x-icon">
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/aos/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/bottomNavbar.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/kelompok.css') }}">
@@ -40,7 +41,13 @@
         crossorigin="anonymous"></script>
     <script src="{{ asset('assets/js/lottie.js') }}"></script>
     <script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="assets/aos/dist/aos.js"></script>
+    <script src="assets/animejs/lib/anime.min.js"></script>
+    <script src="assets/js/animation.js"></script>
     <script src="{{ asset('assets/js/bottomNavbar.js') }}"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -4,7 +4,7 @@ html {
     --duration: 0.45s;
     --cubic: cubic-bezier(0.4, 0, 0.2, 1);
     --color-1: #d5dadd;
-    --color-2: #51d5c2;
+    --color-2: rgba(76, 202, 240, 0.9);
 }
 
 .menu {
