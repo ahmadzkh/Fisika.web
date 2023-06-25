@@ -148,3 +148,9 @@ section.title_project {
         border-color: transparent;
     }
 }
+
+button.carousel-control-prev-self,
+button.carousel-control-next-self {
+    background-color: white;
+    border: none;
+}
