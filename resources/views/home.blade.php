@@ -52,7 +52,7 @@
                         </div>
                     </nav>
                 </div> --}}
-        <menu class="menu position-fixed bottom-0 start-50 translate-middle-x">
+        <menu class="menu shadow position-fixed bottom-0 start-50 translate-middle-x">
             <button class="menu__item active" onClick="location.href='#judul1'">
                 <div class="menu__icon">
                     <i class="fa fa-hourglass-half mr-3 self_icon"></i>

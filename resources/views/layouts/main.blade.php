@@ -22,18 +22,19 @@
 </head>
 
 <body>
-    @include('partials.navbar')
-    <div id="loader-container">
+    <div id="particles-js">
+        @include('partials.navbar')
+        <div id="loader-container">
 
+        </div>
+
+        <!--Main Content-->
+        <div id="main-page">
+            @yield('container')
+        </div>
+
+        @include('partials.footer')
     </div>
-
-    <!--Main Content-->
-    <div id="main-page">
-        @yield('container')
-    </div>
-
-    @include('partials.footer')
-
     <!-- Script -->
     @yield('script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.8/lottie.min.js"></script>
@@ -44,6 +45,8 @@
     <script src="assets/aos/dist/aos.js"></script>
     <script src="assets/animejs/lib/anime.min.js"></script>
     <script src="assets/js/animation.js"></script>
+    <script src="{{ asset('assets/js/particles.js') }}"></script>
+    <script src="{{ asset('assets/js/appParticles.js') }}"></script>
     <script src="{{ asset('assets/js/bottomNavbar.js') }}"></script>
     <script>
         AOS.init();
