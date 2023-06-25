@@ -9,7 +9,7 @@
                                     <button type="button" id="sidebarCollapse" class="btn btn-primary">
                                     </button>
                                 </div> -->
-                        <div class="pt-5 text-">
+                        <div class="pt-5">
                             <h1><a href="index.html" class="logo">Fisika Kimia 2A <span>Medan Magnet</span></a></h1>
 
                             <ul class="list-unstyled components mb-5">
@@ -40,9 +40,9 @@
 
                 <div class="col-9">
                     <!-- Page Content  -->
-                    <div id="content" class="py-5">
-                        <section id="judul1">
-                            <h1 class="mb-4">Definisi dan Sejarah</h1>
+                    <section id="judul1">
+                        <h1 class="mb-4">Definisi dan Sejarah</h1>
+                        <div class="container-fluid py-5">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-5">
                                     <img src="/assets/img/defmagnet1.png" alt="medan_magnet" class="img-fluid"
@@ -79,49 +79,48 @@
                                         draggable="false">
                                 </div>
                             </div>
-                        </section>
+                        </div>
+                    </section>
 
-                        <section id="judul2">
-                            <h1 class="mb-4">Sifat, Jenis dan Fungsi</h1>
-                            <p style="font-size: 18px;" align="justify">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum.</p>
-                        </section>
+                    <section id="judul2">
+                        <h1 class="mb-4">Sifat, Jenis dan Fungsi</h1>
+                        <p style="font-size: 18px;" align="justify">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum.</p>
+                    </section>
 
-                        <section id="judul3">
-                            <h1 class="mb-4">Pengukuran dan Rumus</h1>
-                            <p style="font-size: 18px;" align="justify">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum.</p>
-                        </section>
+                    <section id="judul3">
+                        <h1 class="mb-4">Pengukuran dan Rumus</h1>
+                        <p style="font-size: 18px;" align="justify">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum.</p>
+                    </section>
 
-                        <section id="judul4">
-                            <h1 class="mb-4">Gaya Lorentz</h1>
-                            <p style="font-size: 18px;" align="justify">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum.</p>
-                        </section>
+                    <section id="judul4">
+                        <h1 class="mb-4">Gaya Lorentz</h1>
+                        <p style="font-size: 18px;" align="justify">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum.</p>
+                    </section>
 
-                        <section id="judul5">
-                            <h1 class="mb-4">Penerapan</h1>
-                            <p style="font-size: 18px;" align="justify">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum.</p>
-                        </section>
-
-                    </div>
+                    <section id="judul5">
+                        <h1 class="mb-4">Penerapan</h1>
+                        <p style="font-size: 18px;" align="justify">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum.</p>
+                    </section>
                 </div>
             </div>
         </div>
