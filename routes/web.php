@@ -18,6 +18,7 @@ Route::get('/', function () {
         "title" => "Fisika & Kimia 2A | Home"
     ]);
 });
+
 Route::get('/kelompok', function () {
     return view('kelompok', [
         "title" => "Fisika & Kimia 2A | Kelompok"

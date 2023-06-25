@@ -8,23 +8,33 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/67db78fea9.js" crossorigin="anonymous"></script>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-</head>
+    <link rel="stylesheet" href="https://unpkg.com/flexmasonry/dist/flexmasonry.css">
+    <script src="https://unpkg.com/flexmasonry/dist/flexmasonry.js"></script>
 
+    <script src="https://kit.fontawesome.com/67db78fea9.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="{{ asset('assets/img/icon.png') }}" type="image/x-icon">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/kelompok.css') }}">
+</head>
 <body>
     @include('partials.navbar')
     <div id="loader-container">
 
     </div>
+
     <!--Main Content-->
     <div id="main-page">
         @yield('container')
     </div>
+
+    @include('partials.footer')
+
     <!-- Script -->
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    @yield('script')
+    <script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 </body>
 
 </html>

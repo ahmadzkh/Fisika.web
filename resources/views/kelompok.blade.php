@@ -1,79 +1,84 @@
+@extends('layouts.main')
+@section('container')
 <div id="kelompok-page">
     <div class="container">
-        <div class="top py-3">
-            <div class="d-flex justify-content-between">
-                <div class="title">
-                    <img class="me-2" src="assets/img/icon.png" alt="">Medan Magnet
-                </div>
-                <div class="control">
-                    <span class="circle circle_yellow"></span>
-                    <span class="circle circle_green"></span>
-                    <span class="circle circle_red"></span>
+        <div class="row wrapper mb-3">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-headline text-center">
+                    <h2>Anggota</h2>
                 </div>
             </div>
         </div>
-        <div class="content my-3">
-            <h2>
-                Disusun Oleh :
-            </h2>
-            <div>
-                <p>
-                    Ahmad Zaky Humami
-                    (50422138)
-                </p>
+        <div class="row g-0" data-masonry='{"percentPosition": true }' id="flexmasonry">
+            <div class="col-6 col-lg-3">
+                <div class="card mb-3">
+                    <img src="{{ asset('assets/img/download.jpeg') }}" class="card-img-top w-100" alt="...">
+                    <div class="card-body text-center">
+                        <h5>Ahmad Zaky Humami</h5>
+                        <p>50422138</p>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <p>
-                    Ikhwan Maulana
-                    (50422698)
-                </p>
+            <div class="col-6 col-lg-3">
+                <div class="card mb-3">
+                    <img src="{{ asset('assets/img/download.jpeg') }}" class="card-img-top w-100" alt="...">
+                    <div class="card-body text-center">
+                        <h5>Ikhwan Maulana</h5>
+                        <p>50422698</p>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <p>
-                    Muhammad Fathurrahman
-                    (51422049)
-                </p>
+            <div class="col-6 col-lg-3">
+                <div class="card mb-3">
+                    <img src="{{ asset('assets/img/download.jpeg') }}" class="card-img-top w-100" alt="...">
+                    <div class="card-body text-center">
+                        <h5>Muhammad Fathurrahman</h5>
+                        <p>51422049</p>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <p>
-                    Muhammad Raihan Zhafran
-                    (51422127)
-                </p>
+            <div class="col-6 col-lg-3">
+                <div class="card mb-3">
+                    <img src="{{ asset('assets/img/download.jpeg') }}" class="card-img-top w-100" alt="...">
+                    <div class="card-body text-center">
+                        <h5>Muhammad Raihan Zhafran</h5>
+                        <p>51422127</p>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <p>
-                    Pratama Rizky Aditya
-                    (51422299)
-                </p>
+            <div class="col-6 col-lg-3">
+                <div class="card mb-3">
+                    <img src="{{ asset('assets/img/download.jpeg') }}" class="card-img-top w-100" alt="...">
+                    <div class="card-body text-center">
+                        <h5>Pratama Rizky Aditya</h5>
+                        <p>51422299</p>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <p>
-                    Rifqi Ramadhani Hidayat
-                    (51422445)
-                </p>
+            <div class="col-6 col-lg-3">
+                <div class="card mb-3">
+                    <img src="{{ asset('assets/img/download.jpeg') }}" class="card-img-top w-100" alt="...">
+                    <div class="card-body text-center">
+                        <h5>Rifqi Ramadhani Hidayat</h5>
+                        <p>51422445</p>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <p>
-                    Yoga Adriansyah
-                    (51422643)
-                </p>
+            <div class="col-6 col-lg-3">
+                <div class="card mb-3">
+                    <img src="{{ asset('assets/img/download.jpeg') }}" class="card-img-top w-100" alt="...">
+                    <div class="card-body text-center">
+                        <h5>Yoga Adriansyah</h5>
+                        <p>51422643</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <footer class="py-2">
-            <!--Footer Nav Bar-->
-            <nav class="d-flex justify-content-center">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <p class="" aria-current="page">Copyright &copy; 2023 All Rights Reserved</p>
-                    </li>
-                </ul>
-            </nav>
-        </footer>
     </div>
 </div>
+@endsection
+@section('script')
+<script>
+    FlexMasonry.init('#flexmasonry');
+</script>
+@endsection

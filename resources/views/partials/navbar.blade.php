@@ -1,20 +1,16 @@
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">Blog Kita</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/kelompok">Kelompok</a>
-                    </li>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<nav class="navbar navbar-expand navbar-light bg-light shadow fixed-top">
+    <!-- Container wrapper -->
+    <div class="container-fluid justify-content-center">
+            <!-- Left links -->
+            <ul class="navbar-nav mb-lg-1">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/kelompok') }}">Kelompok</a>
+                </li>
+            </ul>
+            <!-- Left links -->
+    </div>
+    <!-- Container wrapper -->
+</nav>
