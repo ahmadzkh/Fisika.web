@@ -6,6 +6,10 @@
     left: 35px;
 } */
 
+#home-page{
+    /* z-index: 999; */
+}
+
 section {
     min-width: 100vh;
     padding: 100px 0 0 0;
@@ -177,8 +181,12 @@ button.carousel-control-next-self {
     background-size: cover;
 }
 
-.particles-js-canvas-el {
+.particles-js-canvas-el{
     top: 0;
     left: 0;
     position: fixed;
 }
+
+@media only screen and (max-width: 600px) {
+
+  }
