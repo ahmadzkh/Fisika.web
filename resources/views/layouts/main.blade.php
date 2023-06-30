@@ -18,6 +18,7 @@
     <link href="assets/aos/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/bottomNavbar.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/kelompok.css') }}">
 </head>
 
