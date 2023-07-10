@@ -27,6 +27,7 @@
             </section>
         </div>
     </div>
+    @include('partials.footer')
 @endsection
 @section('script')
     <script>
