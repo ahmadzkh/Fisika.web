@@ -5,12 +5,12 @@
         <ul class="navbar-nav ms-auto mb-lg-1 p-1">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="{{ url('/') }}">
-                    <p class="m-auto">Home</p>
+                    <p>Home</p>
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('/kelompok') }}">
-                    <p class="m-auto">Kelompok</p>
+                    <p>Kelompok</p>
                 </a>
             </li>
         </ul>
@@ -19,7 +19,7 @@
             <!-- Add the 'ml-auto' class to align items to the right -->
             <li class="nav-item">
                 <a class="nav-link">
-                    <p id="time" class="m-auto">0/00/0000 -- 00:00:00 00</p>
+                    <p id="time">0/00/0000 -- 00:00:00 00</p>
                 </a>
             </li>
         </ul>
