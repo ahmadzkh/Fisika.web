@@ -33,8 +33,6 @@
         <div id="main-page">
             @yield('container')
         </div>
-
-        @include('partials.footer')
     </div>
     <!-- Script -->
     @yield('script')
