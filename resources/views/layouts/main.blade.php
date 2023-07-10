@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Fisika Kimia 2A | Medan Magnet | {{ $title }}</title>
+    <title>Fisika Kimia Dasar 2A | Medan Magnet | {{ $title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <div id="particles-js">
+    <div>
         @include('partials.navbar')
         <div id="loader-container">
 

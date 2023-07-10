@@ -1,4 +1,4 @@
-<footer class="pt-5 pb-3">
+<footer class="pt-5 pb-3 shadow-lg">
     <!--Footer Nav Bar-->
     <nav class="d-flex justify-content-center">
         <ul class="navbar-nav">
