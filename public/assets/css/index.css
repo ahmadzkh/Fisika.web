@@ -21,7 +21,7 @@ section {
 
 div.title_project {
     min-width: 100vh;
-    padding: 220px 0 220px 0;
+    padding: 100px 0 200px 0;
 }
 
 /* https://hype4.academy/tools/glassmorphism-generator */
@@ -182,9 +182,14 @@ button.carousel-control-next-self {
 }
 
 .particles-js-canvas-el {
-    top: 0;
-    left: 0;
-    position: absolute;
+    @media screen and (min-width: 641px) {
+        top: 5;
+        left: 0;
+        position: absolute;
+    }
+    @media screen and (max-width: 640px) {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
