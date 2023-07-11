@@ -1,17 +1,23 @@
 @extends('layouts.main')
 @section('container')
     <div id="home-page">
-        <div class="title_project" id="particles-js">
+        <div class="title_project">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-md mx-auto">
-                        {{-- col-d-5 --}}
-                        <figure class="atom_lottie"></figure>
-                    </div>
-                    <div class="ol-md-7 my-auto title_fisika" style="display: none">
-                        <p class="typing_title_matkul fs-1 fw-bold">Fisika dan Kimia Dasar 2A</p>
-                        <p class="typing_title">Medan Magnet</p>
-                        <p clas="typing_title_kelompok fs-6">Present by Kelompok 8</p>
+                    <div class="col" id="particles-js">
+                        <div class="row">
+                            <div class="col-5 offset-md-2 mx-auto">
+                                {{-- col-d-5 --}}
+                                <figure class="atom_lottie"></figure>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-7 offset-md-2 my-auto title_fisika" style="display: none">
+                                <p class="typing_title_matkul fs-1 fw-bold m-auto">Fisika dan Kimia Dasar 2A</p>
+                                <p class="typing_title m-auto">Medan Magnet</p>
+                                <p class="typing_title_kelompok fs-6 m-auto">Present by Kelompok 8</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
