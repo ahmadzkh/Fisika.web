@@ -1,8 +1,23 @@
 #kelompok-page {
-    overflow-x: hidden;
-    padding: 100px 0 0 0;
+    overflow: hidden;
 }
 
-section {
+section.anggota {
     min-height: 100vh;
+    padding: 120px 0 0 0;
+}
+
+.card {
+    z-index: 1;
+    margin: 10px;
+}
+
+.profile {
+    width: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    aspect-ratio: 1/1;
 }

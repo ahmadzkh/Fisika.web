@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-light bg-light shadow fixed-top">
+<nav class="navbar navbar-expand navbar-light bg-light shadow-lg fixed-top">
     <!-- Container wrapper -->
     <div class="container-fluid d-flex justify-content-center">
         <!-- Left links -->
