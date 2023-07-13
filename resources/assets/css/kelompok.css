@@ -1,0 +1,49 @@
+#kelompok-page {
+    /* overflow: hidden; */
+    max-width: 100%;
+}
+
+.anggota {
+    min-height: 100vh;
+    padding: 120px 0 0 0;
+}
+
+.mobile {
+    display: none;
+}
+
+.card {
+    z-index: 1;
+    margin: 5px 5px 5px 0;
+}
+
+.profile {
+    width: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 1280px) {
+    footer {
+        z-index: 1;
+    }
+    .anggota {
+        display: none;
+    }
+
+    .mobile {
+        /* padding: 120px 0 0 0; */
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1 0 100px;
+        z-index: 1;
+    }
+}
