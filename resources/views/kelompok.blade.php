@@ -1,8 +1,8 @@
 @extends('layouts.main')
 @section('container')
 <div id="kelompok-page">
-    <div class="container">
-        <section class="grid anggota" id="particles-js">
+    <div class="container" id="particles-js" style="background: none">
+        <section class="grid anggota">
             <div class="card glass">
                 <div class="card-body mx-auto">
                     <img src="{{ asset ("assets/img/zaky.jpg") }}" class="profile" alt="zaky">
@@ -27,7 +27,7 @@
             </div>
             <div class="card glass">
                 <div class="card-body mx-auto">
-                    <img src="{{ asset ("assets/img/raihan.jpg") }}" class="profile" alt="raihan">
+                    <img src="{{ asset ("assets/img/raihan.gif") }}" class="profile" alt="raihan">
                 </div>
                 <h5 class="card-title text-center mb-4">Muhammad Raihan Zhafran</h5>
             </div>
@@ -52,6 +52,27 @@
                     <img src="{{ asset ("assets/img/yoga.jpg") }}" class="profile" alt="yoga">
                 </div>
                 <h5 class="card-title text-center mb-4">Yoga Ardiansyah</h5>
+            </div>
+        </section>
+
+        <section class="mobile">
+            <div class="card glass">
+                <div class="card-body mx-auto">
+                    <img src="{{ asset ("assets/img/zaky.jpg") }}" class="profile" alt="zaky">
+                </div>
+                <h5 class="card-title text-center mb-4">Ahmad Zaky Humami</h5>
+            </div>
+            <div class="card glass">
+                <div class="card-body mx-auto">
+                    <img src="{{ asset ("assets/img/zaky.jpg") }}" class="profile" alt="zaky">
+                </div>
+                <h5 class="card-title text-center mb-4">Ahmad Zaky Humami</h5>
+            </div>
+            <div class="card glass">
+                <div class="card-body mx-auto">
+                    <img src="{{ asset ("assets/img/zaky.jpg") }}" class="profile" alt="zaky">
+                </div>
+                <h5 class="card-title text-center mb-4">Ahmad Zaky Humami</h5>
             </div>
         </section>
     </div>

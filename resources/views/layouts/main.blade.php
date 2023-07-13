@@ -20,10 +20,15 @@
     <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/kelompok.css') }}">
+    <style>.hide-on-loader {
+  display: hidden;
+}
+</style>
 </head>
 
 <body>
-    <div>
+    @include('loader')
+    <div class="hide-on-loader">
         @include('partials.navbar')
         <div id="loader-container">
 
@@ -34,6 +39,7 @@
             @yield('container')
         </div>
     </div>
+
     <!-- Script -->
     @yield('script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.8/lottie.min.js"></script>
@@ -50,6 +56,32 @@
     <script>
         AOS.init();
     </script>
+    <script>
+// Wait for the window to finish loading
+window.addEventListener('load', function() {
+  // Get the loader container element
+  var loaderContainer = document.getElementById('loader-container');
+
+  // Get the elements to hide and show
+  var elementsToHide = document.querySelectorAll('.hide-on-loader');
+
+  // Hide the elements
+  for (var i = 0; i < elementsToHide.length; i++) {
+    elementsToHide[i].style.display = 'none';
+  }
+
+  // Add a delay of 2 seconds (2000 milliseconds)
+  setTimeout(function() {
+    // Remove the loader container element from the DOM
+    loaderContainer.parentNode.removeChild(loaderContainer);
+
+    // Show the hidden elements
+    for (var i = 0; i < elementsToHide.length; i++) {
+      elementsToHide[i].style.display = 'block';
+    }
+  }, 2000); // Adjust the delay time as needed
+});
+  </script>
 </body>
 
 </html>

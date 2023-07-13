@@ -15,7 +15,7 @@
                             <div class="col-md-7 offset-md-2 my-auto title_fisika" style="display: none">
                                 <p class="typing_title_matkul fs-1 fw-bold m-auto">Fisika dan Kimia Dasar 2A</p>
                                 <p class="typing_title m-auto">Medan Magnet</p>
-                                <p class="typing_title_kelompok fs-6 m-auto">Present by Kelompok 8</p>
+                                <p class="typing_title_kelompok fs-6 m-auto">Present by Kelompok 7</p>
                             </div>
                         </div>
                     </div>
@@ -50,24 +50,24 @@
                 <strong class="menu__text">Gaya Lorentz</strong>
             </button>
 
-            <button class="menu__item" onClick="location.href='#judul5'">
+            <button class="menu__item" onClick="location.href='#judul6'">
                 <div class="menu__icon">
                     <i class="fa-solid fa-microscope mr-3 self_icon"></i>
                 </div>
-                <strong class="menu__text">Penerapan</strong>
+                <strong class="menu__text">Contoh Soal</strong>
             </button>
         </menu>
 
         <!-- Page Content  -->
         <section id="judul1">
             <div class="container">
-                <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+                <h1 class="fw-bold mb-5" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">
                     Definisi dan Sejarah</h1>
-                <div class="row mb-5 d-flex justify-content-around">
+                <div class="row glass p-4 mb-5 d-flex justify-content-around" data-aos="zoom-in" data-aos-anchor-placement="top-center"
+                            data-aos-duration="1500">
                     <div class="col-md-4">
                         <img src="{{ asset('/assets/img/defmagnet1.png') }}" alt="medan_magnet" class="img-fluid"
-                            draggable="false" data-aos="zoom-in" data-aos-anchor-placement="top-center"
-                            data-aos-duration="1500">
+                            draggable="false">
                     </div>
                     <div class="col-md-7">
                         <p style="font-size: 20px;" align="justify" data-aos="fade-down"
@@ -82,10 +82,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-around">
+                <div class="row glass p-4 d-flex justify-content-around" data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-duration="1500">
                     <div class="col-md-8">
-                        <p style="font-size: 20px;" align="justify" data-aos="fade-down"
-                            data-aos-anchor-placement="top-center" data-aos-duration="1500">
+                        <p style="font-size: 20px;" align="justify">
                             Konsep medan magnet telah diketahui oleh masyarakat kuno. Namun, riset mengenai
                             medan magnet baru dimulai oleh Petrus Peregrinus de Maricourt pada tahun 1269.
                             Kemudian tiga abad setelah Petrus Peregrinus mengemukakan teorinya mengenai medan
@@ -107,40 +106,37 @@
 
         <section id="judul2">
             <div class="container">
-                <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">
-                    Sifat, Jenis Fungsi</h1>
-                <div class="row mb-5 d-flex justify-content-around">
+                {{-- <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+                    Sifat, Jenis Fungsi</h1> --}}
+                <div class="row glass p-4 mb-5 d-flex justify-content-around">
+                    <p style="font-size: 20px" class="text-center fw-bold" data-aos="fade-down"
+                        data-aos-anchor-placement="top-center">Fungsi Magnet</p>
                     <div class="col-lg-2 col-sm-12">
-                        <p style="font-size: 20px" class="text-center" data-aos="fade-down"
-                            data-aos-anchor-placement="top-center">Fungsi Magnet</p>
                         <img src="{{ asset('/assets/img/mikros.png') }}" alt="mikros" class="img-fluid" draggable="false"
                             data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-duration="1500">
                     </div>
-                    <div class="col-lg-5 col-sm-12">
-                        <ul style="font-size: 20px">
-                            <li data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+                    <div class="col-lg-5 col-sm-12 mt-4">
+                        <ul style="font-size: 20px; list-style-type: none;">
+                            <li class="my-2" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">
                                 Memproduksi listrik</li>
-                            <li data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500"
+                            <li class="my-2" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500"
                                 data-aos-delay="300">
                                 Membuat benda tertentu
                                 menjadi magnetik</li>
-                            <li data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500"
+                            <li class="my-2" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500"
                                 data-aos-delay="600">
                                 Menggerakkan benda yang magnetik</li>
-                            <li data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500"
+                            <li class="my-2" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500"
                                 data-aos-delay="900">
                                 Untuk menentukan arah</li>
                         </ul>
                     </div>
                 </div>
-                <div class="row mb-5 d-flex justify-content-around">
-                    <div class="col-md-2 my-auto">
-                        <p style="font-size: 20px;" data-aos="fade-right" data-aos-anchor-placement="top-center"
-                            data-aos-duration="1500">Sifat Magnet :</p>
-                    </div>
-                    <div class="col-md-10 text-justify" style="min-height: 100px">
+                <div class="row glass p-4 mb-5 d-flex justify-content-around">
+                    <p class="text-center fw-bold" style="font-size: 20px;" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">Sifat Magnet</p>
+                    <div class="col-md-12 text-center" style="min-height: 100px">
                         <div class="row">
-                            <div class="col-md-8" data-aos="zoom-in" data-aos-anchor-placement="top-center"
+                            <div class="col" data-aos="zoom-in" data-aos-anchor-placement="top-center"
                                 data-aos-duration="1500">
                                 {{-- ini kalo bisa dibikin carousel dah --}}
                                 <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade"
@@ -209,12 +205,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-around">
-                    <div class="col-md-2 my-auto">
-                        <p style="font-size: 20px" data-aos="fade-right" data-aos-anchor-placement="top-center"
-                            data-aos-duration="1500">Jenis Magnet</p>
-                    </div>
-                    <div class="col-md-8">
+                <div class="row glass p-4 d-flex justify-content-around">
+                    <p class="text-center fw-bold" style="font-size: 20px" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">Jenis Magnet</p>
+                    <div class="col-md-5">
                         <ul style="font-size: 20px">
                             <li data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">
                                 Medan Magnet Statis
@@ -231,6 +224,10 @@
                                 data-aos-delay="600">
                                 Medan Magnet Kuat
                             </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <ul style="font-size: 20px">
                             <li data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500"
                                 data-aos-delay="800">
                                 Medan Magnet Lemah
@@ -251,9 +248,9 @@
 
         <section id="judul3">
             <div class="container">
-                <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="top-center"
-                    data-aos-duration="1500">Pengukuran dan Rumus</h1>
-                <div class="row d-flex justify-content-around">
+                {{-- <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="top-center"
+                    data-aos-duration="1500">Pengukuran dan Rumus</h1> --}}
+                <div class="row glass p-4 d-flex justify-content-around">
                     <h4 class="text-center mb-3" data-aos="fade-down" data-aos-anchor-placement="top-center"
                         data-aos-duration="1500">Pengukuran Medan Magnet</h4>
                     <div class="col-lg-12 mb-lg-3">
@@ -261,7 +258,7 @@
                             class="img-fluid mx-auto d-block w-75" draggable="false" data-aos="zoom-in"
                             data-aos-anchor-placement="top-center" data-aos-duration="1500">
                     </div>
-                    <div class="col-lg-12 mb-lg-3">
+                    <div class="col-lg-12 my-lg-3">
                         <p style="font-size: 18px;" align="justify" data-aos="fade-down"
                             data-aos-anchor-placement="top-center" data-aos-duration="1500">Pengukuran medan magnet
                             dilakukan dengan
@@ -277,7 +274,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row mb-3 d-flex justify-content-around">
+                <div class="row glass p-4 my-3 d-flex justify-content-around">
                     <h4 class="text-center mb-3" data-aos="fade-down" data-aos-anchor-placement="top-center"
                         data-aos-duration="1500">Rumus Medan Magnet pada titik tertentu akibat arus arus listrik yang
                         mengalir listrik</h4>
@@ -296,7 +293,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row mb-3 d-flex justify-content-around">
+                <div class="row glass p-4 mb-3 d-flex justify-content-around">
                     <h4 class="text-center mb-3" data-aos="fade-down" data-aos-anchor-placement="top-center"
                         data-aos-duration="1500">Rumus Medan Magnet pada titik tertentu akibat kutub magnet</h4>
                     <div class="col-lg-4 col-md-5 col-sm-12">
@@ -314,7 +311,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-around">
+                <div class="row glass p-4 d-flex justify-content-around">
                     <h4 class="text-center mb-3" data-aos="fade-down" data-aos-anchor-placement="top-center"
                         data-aos-duration="1500">Rumus Medan Magnet dalam Toroid Rumus</h4>
                     <div class="col-lg-4 col-md-5 col-sm-12">
@@ -345,7 +342,7 @@
                             class="img-fluid mx-auto d-block" draggable="false" data-aos="zoom-in"
                             data-aos-anchor-placement="top-center" data-aos-duration="1500">
                     </div>
-                    <div class="col-lg-12 mb-lg-3">
+                    <div class="col-lg-12 mb-lg-3 glass p-4">
                         <p style="font-size: 18px;" align="justify" data-aos="fade-down"
                             data-aos-anchor-placement="top-center" data-aos-duration="1500">
                             Gaya lorentz ditemukan oleh Herdik Antoon Lorentz pada 1853-1928. Dia ilmuan asal Belanda
@@ -361,7 +358,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row mb-3 d-flex justify-content-around">
+                <div class="row glass p-4 mb-3 d-flex justify-content-around">
                     <div class="col-lg-4 col-md-5 col-sm-12">
                         <img src="{{ asset('/assets/img/gayamagnet.png') }}" alt="rumusgaya" class="img-fluid mb-3"
                             draggable="false" data-aos="zoom-in" data-aos-anchor-placement="top-center"
@@ -389,7 +386,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center">
+                <div class="row glass p-4 d-flex justify-content-center">
                     <div class="col-lg-12">
                         <p style="font-size: 20px" align="justify" data-aos="fade-down"
                             data-aos-anchor-placement="top-center" data-aos-duration="1500">
@@ -412,7 +409,7 @@
             </div>
         </section>
 
-        <section id="judul5">
+        {{-- <section id="judul5">
             <div class="container">
                 <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="top-center"
                     data-aos-duration="1500">Penerapan</h1>
@@ -422,7 +419,7 @@
             </div>
         </section>
 
-        <section id="judul6">
+        <section id="judul7">
             <div class="container">
                 <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="top-center"
                     data-aos-duration="1500">Aplikasi Perhitungan</h1>
@@ -593,6 +590,92 @@
                     </form>
                 </div>
             </div>
+        </section> --}}
+
+        <section id="judul6" style="margin-bottom:100px;">
+            <div class="container">
+                <h1 class="mb-5" data-aos="fade-right" data-aos-anchor-placement="top-center"
+                    data-aos-duration="1500">Contoh Soal</h1>
+
+                <div class="row my-3">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 glass p-4" data-aos="fade-down" data-aos-anchor-placement="top-center"
+                        data-aos-duration="1500">
+                        <h4 class="text-center fw-bold">Medan Magnet</h4>
+                        <p>
+                            Sebuah kawat melingkar berarus searah sejajar dengan bidang x-y memiliki jari-jari 0,1 m dan mengalirkan arus sebesar 5 A. Hitung medan magnet di titik P yang terletak di pusat lingkaran.
+                        </p>
+                        <p>
+                            Diketahui: <br>
+                            Jari-jari kawat (r) = 0,1 m <br>
+                            Arus listrik (I) = 5 A <br><br>
+                            Ditanyakan:
+                            Medan magnet di titik P (B) <br><br>
+                            Jawab:
+                            B = μ₀ * I / (2 * π * r) <br>
+                            B = (4π × 10^(-7) Tm/A * 5 A) / (2π * 0,1 m) <br>
+                            B = (20π × 10^(-7) Tm) / (2π * 0,1 m) <br>
+                            B = (10 × 10^(-7) Tm) / (0,1 m) <br>
+                            B = 100 × 10^(-7) Tm <br>
+                            B = 1 × 10^(-5) T <br>
+                        </p>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 glass p-4" data-aos="fade-down" data-aos-anchor-placement="top-center"
+                        data-aos-duration="1500">
+                        <h4 class="text-center fw-bold">Gaya Lorentz</h4>
+                        <p>
+                            Kawat lurus berarus listrik 4 A berada dalam medan magnet sebesar 1 T yang arahnya tegak lurus terhadap arus. Jika gaya Lorentz yang bekerja pada kawat sebesar 4 N maka panjang kawat adalah…
+                        </p>
+                        <p>
+                            Pembahasan <br>
+                            Diketahui: <br>
+                            I = 4 A <br>
+                            B = 1 T <br>
+                            F = 4 N <br>
+                            Sin 90 derajat (karena tegak lurus) <br> <br>
+                            Ditanya: L? <br> <br>
+                            Jawaban: <br>
+                            F = B.I.L.sin90 <br>
+                            L = F/(B.I.sin90) <br>
+                            L = 4/(1.4.1) <br>
+                            L = 1 m <br>
+                            Jadi, panjang kawat jika gaya Lorentz yang bekerja sebesar 2 Newton adalah 1 meter.
+                        </p>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 glass p-4" data-aos="fade-down" data-aos-anchor-placement="top-center"
+                        data-aos-duration="1500">
+                        <h4 class="text-center fw-bold">Rumus Medan Magnet pada titik tertentu akibat kutub magnet</h4>
+                        <p>
+                            Sebuah magnet batang memiliki momen magnetik sebesar 2 Am² dan berada pada jarak 0,1 m dari sebuah titik P. Hitung medan magnet di titik P akibat magnet batang tersebut.
+                        </p>
+                        <p>
+                            Diketahui: <br>
+                            Momen magnetik (m) = 2 Am² <br>
+                            Jarak dari magnet ke titik P (r) = 0,1 m <br> <br>
+                            Ditanya: <br>
+                            Medan magnet di titik P (B) <br> <br>
+                            Jawab: <br>
+                            B = μ₀ * m / (4 * π * r^3) <br>
+                            B = (4π × 10^(-7) Tm/A * 2 Am²) / (4π * (0,1 m)^3) <br>
+                            B = (8π × 10^(-7) Tm²) / (4π * 0,001 m³) <br>
+                            B = (2 × 10^(-6) Tm²) / (0,004π m³) <br>
+                            B = (2 × 10^(-6) Tm²) / (0,01257 m³) <br>
+                            B ≈ 159 × 10^(-6) T (Tesla) <br>
+                            Jadi, medan magnet di titik P akibat magnet batang tersebut adalah sekitar 159 × 10^(-6) T.
+                        </p>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
         </section>
     </div>
+
 @endsection
