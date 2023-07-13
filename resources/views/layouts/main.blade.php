@@ -17,7 +17,7 @@
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/aos/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/bottomNavbar.css') }}">
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/index.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/kelompok.css') }}">
     <style>
